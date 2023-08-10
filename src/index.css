@@ -1,0 +1,28 @@
+:root {
+  --fontfamily-1: "Playfair Display", serif;
+  --fontfamily-2: "Plus Jakarta Sans", sans-serif;
+
+  --primary-color: rgb(204, 204, 255);
+  --secondary-color: #fce6f1;
+  --white: #FFFFFF;
+  --black: #232323;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  behavior: smooth;
+}
+
+body{
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: var(--secondary-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
